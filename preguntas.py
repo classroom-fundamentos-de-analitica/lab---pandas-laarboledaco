@@ -53,9 +53,9 @@ def pregunta_03():
     Name: _c1, dtype: int64
 
     """
-    fila = tbl0.loc[_c1]
+    fila = tbl0.iloc[:, 1] 
     print(fila)
-    return
+    return fila
 
 
 def pregunta_04():
