@@ -34,7 +34,7 @@ def pregunta_02():
     4
 
     """
-    columnas = tbl1.shape
+    columnas = len(tbl1.columns)
     return columnas[1]
 
 
