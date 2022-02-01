@@ -62,8 +62,8 @@ def pregunta_03():
             respuesta[registro] += 1
         else:
             respuesta[registro] = 1
-    print(sorted(respuesta))
-    return pd.series(respuesta)
+    print(respuesta)
+    return pd.Series(respuesta)
 
 
 def pregunta_04():
