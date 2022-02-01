@@ -63,6 +63,8 @@ def pregunta_03():
         else:
             respuesta[registro] = 1
     print(respuesta)
+    print(pd.Series({"A": 8, "B": 7, "C": 5, "D": 6, "E": 14}))
+    print(type(pd.Series({"A": 8, "B": 7, "C": 5, "D": 6, "E": 14})))
     return pd.Series(respuesta)
 
 
