@@ -63,7 +63,7 @@ def pregunta_03():
         else:
             respuesta[registro] = 1
     print(respuesta)
-    return respuesta
+    return pd.series(respuesta)
 
 
 def pregunta_04():
