@@ -54,8 +54,16 @@ def pregunta_03():
 
     """
     fila = tbl0.iloc[:, 1] 
-    print(fila)
-    return fila
+    #print(fila)
+    respuesta = {}
+    for registro in fila:
+        
+        if registro in respuesta.keys():
+            respuesta[registro] += 1
+        else:
+            respuesta[registro] = 1
+    print(respuesta)
+    return respuesta
 
 
 def pregunta_04():
