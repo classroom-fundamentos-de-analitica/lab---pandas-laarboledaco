@@ -133,7 +133,7 @@ def pregunta_08():
 
     """
     respuesta = tbl0
-    respuesta['suma'] = respuesta['_c0'] + a['_c2']
+    respuesta['suma'] = respuesta['_c0'] + respuesta['_c2']
     return respuesta
 
 
